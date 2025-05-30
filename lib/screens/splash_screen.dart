@@ -16,11 +16,11 @@ class _SplashScreenState extends State<SplashScreen> {
     print('splash screen initialising');
     super.initState();
     // Simulate loading or do initialization here
-    // Timer(const Duration(seconds: 3), () {
-    //   Navigator.of(
-    //     context,
-    //   ).pushReplacement(MaterialPageRoute(builder: (_) => const HomeScreen()));
-    // });
+    Timer(const Duration(seconds: 3), () {
+      Navigator.of(
+        context,
+      ).pushReplacement(MaterialPageRoute(builder: (_) => const HomeScreen()));
+    });
   }
 
   @override

@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
         title: 'Product Listing App',
         theme: AppTheme.lightTheme, // Apply the custom theme
         debugShowCheckedModeBanner: false, // Remove debug banner
-        home: const HomeScreen(),
+        home: const SplashScreen(),
         // You can define routes here for named navigation if preferred:
         // routes: {
         //   '/': (context) => HomeScreen(),
